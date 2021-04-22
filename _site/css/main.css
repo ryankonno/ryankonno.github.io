@@ -20,13 +20,18 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+h2 {
+    /* font-size: 3em; */
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
+    font-size: 1.25em;
     line-height: 1.4em;
     color: #333;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -34,11 +39,14 @@ footer {
 }
 
 ul.posts {
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
     margin: 20px auto 40px;
     font-size: 1.5em;
+    padding-bottom: 1.5em;
 }
 
 ul.posts li {
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
 }
 
@@ -48,7 +56,16 @@ ul.posts li {
   background: 'images/forest.jpg';
   background-size: cover;
 }
+li {
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  padding-bottom: 1em;
+  font-size: 1em;
+}
 
 img {
   padding-right: 2em;
+}
+
+div {
+  padding-bottom: 8em;
 }
